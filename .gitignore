@@ -1,0 +1,24 @@
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# XAMPP & environnement local
+*.log
+*.tmp
+
+# Cache / session PHP
+*.cache
+*.session
+
+# Fichiers sensibles
+.env
+
+# Dossier vendor (si Composer utilisé un jour)
+vendor/
+
+# Dossier node_modules (au cas où)
+node_modules/
+
+# Dossiers inutiles
+.idea/
+.vscode/
